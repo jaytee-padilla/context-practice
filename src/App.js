@@ -3,6 +3,7 @@ import './App.scss';
 
 // components
 import Nav from './components/Nav';
+import AddMovie from './components/AddMovie';
 import MovieList from './components/MovieList';
 
 // contexts
@@ -13,6 +14,7 @@ function App() {
 		<MovieProvider>
 			<div className="App">
 				<Nav />
+				<AddMovie />
 				<MovieList />
 			</div>
 		</MovieProvider>
